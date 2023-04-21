@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='login_style.css') }}">
+    <script src="https://kit.fontawesome.com/9a55e90b5a.js" crossorigin="anonymous"></script> 
+     
+</head> 
+<body> 
+   <div class="logo"><img src="{{ url_for('static', filename='images/img.png') }}"></div>
+   <div class="box">
+       <div class="container">
+        <form class="row g-3" method='post'>
+            <div class="show">
+            {%if error %}
+            <p style=color:'red'><strong>{{error}}</strong></p>
+            {% endif %}
+            </div>
+           <div class="top-header">
+               <h1>Have an acount ?</h1>
+               <header>Login</header>
+           </div>
+           <div class="input_field">
+               <input type="text" class="input" name="username" placeholder="Username" required>
+               <i class="fa-solid fa-user"></i>
+           </div>
+           <div class="input_field" >
+               <input type="password" class="input" name="password"  placeholder="Password" id="myInput" required>
+               <i class="fa-solid fa-lock-open"></i>
+               <span onclick=showPass()>
+                  <i id="hide2" class="fa fa-eye-slash"> </i>
+               </span> 
+           </div>
+           <div class="wrap">
+            <button type="submit" >Log in</button>
+           </div>
+        </form>
+       </div>
+   </div>
+   <div class="bottomLeft"><p> Created by : Data Analyst Team</p> </div>
+   <script>
+    function showPass()
+    {
+        var x=document.getElementById("myInput");
+        var z=document.getElementById("hide2");
+        if(x.type=='password')
+        {
+            x.type="text";
+            z.style.dispaly="none";
+        }
+        else{
+            x.type="password";
+            z.style.display="block";
+        }
+    } 
+</script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+*{
+    font-family:'Poppins',sans serif;
+     
+   }
+   body{
+    background-image: url(images\\img_4.png) ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   }  
+  span{
+    position: absolute;
+   }
+   .logo{
+    width:50px;
+    height:5px
+   }
+   .logo img{
+     width: 420px;
+     height: 100px;
+     left:36%;
+     margin-top: 50px; 
+     position: absolute;
+   }
+   .box{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 90vh;
+   }
+   .container
+   {    
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   }
+   h1{
+     color: #0c0a0a;
+     font-size: medium;
+     display: flex;
+     justify-content: center;
+     padding: 10px 0 10px 0;  
+   }
+   header{
+       color:#070606;
+       font-size: 30px;
+       display: flex;
+       justify-content: center;
+       padding: 10px 0 10px 0;
+   }
+   .input-field{
+       display: flex;
+       flex-direction: column;
+   }
+  #hide1{
+    display:none;
+  }
+   .input{
+       height: 45px;
+       width: 87%;
+       border-color: #000;
+       outline: none;
+       border-radius: 30px;
+       color:#050404;
+       padding: 0 0 0 45px;
+       background: rgba(255,255,255,0.1);
+   
+   }
+   ::-webkit-input-placeholder{
+       color:#090808;
+   }
+   .wrap{
+       display: flex;
+       font-size: 15px;
+       padding: 0 0 0 250px;
+       height: 30px;
+       width: 15 rem;
+   }
+   .bottomLeft {
+    position: fixed;
+    left: 50px; bottom: 70px;
+    width: 400px;
+    height:40px;
+    padding: 5px;
+  }
+   button {
+       width: 140px;
+       height: 45px;
+       font-family: 'Roboto', sans-serif;
+       font-size: 11px;
+       text-transform: uppercase;
+       letter-spacing: 2.5px;
+       font-weight: 500;
+       color: #000;
+       background-color:rgba(10, 48, 200, 0.779);
+       border: none;
+       border-radius: 45px;
+       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+       transition: all 0.3s ease 0s;
+       cursor: pointer;
+       outline: none;
+       }
+     
+     button:hover {
+       background-color: #5c15c7;
+       box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+       color: #fff;
+       transform: translateY(-7px);
+     }
+
+    .fa-solid{
+       position:relative;
+       top:-33px;
+       left:17px;
+       color:#000;
+     }
+    .fa{
+      position:relative;
+      top:-33px;
+      left:340px;
+      color:#000;
+    }
+   
+   
+   

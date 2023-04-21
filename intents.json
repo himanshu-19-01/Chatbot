@@ -1,0 +1,249 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    
+
+    {
+      "tag": "Services",
+      "patterns": [
+        "Services",
+        "Tell me about SahiBnk Services",
+        "Something about SahiBnk Services",
+        "Do you know about SahiBnk Services?"
+      ],
+      "responses": [
+        
+        "In SahiBnk we have different products like: Open Saving Account, Open Current Account, Personal Loans, Two wheeler Loan, Gold Loans,Tractor Loans, Home Loans, Kisan Credit Card "
+      ]
+    },
+    {
+      "tag": "Social Media",
+      "patterns": [
+        "Social",
+        "Social Media",
+        "Tell me about SahiBnk Social Media",
+        "Something about SahiBnk Social Media",
+        "Do you know about SahiBnk Social Media?"
+      ],
+      "responses": [
+        
+        "https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fmanipal-business-solutions-private-limited%2Fabout%2F",
+         "https://facebook.com/Manipal-Business-Solutions-101952535710651",
+         "https://www.instagram.com/manipalbusinesssolution/"     
+         ]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "Location",
+        "Tell me about SahiBnk Location",
+        "Something about SahiBnk Location",
+        "Do you know about SahiBnk Location?"
+      ],
+      "responses": [
+        "SahiBnk, 'PARK CENTRA' Unit #703, 7th floor, Tower B Sector-30, Gurugram - 122001 Haryana"    
+         ]
+    },
+    {
+      "tag": "Info",
+      "patterns": [
+        "Credit Score",
+        "What is credit score?",
+        "Tell me about credit score",
+        "Do you know about Credit Score"
+      ],
+      "responses": [
+        "Credit Score is a 3-digit number (between 300 & 900) calculated by a Credit Bureau using the credit history of an individual.The four RBI-authorized Credit Bureaus in India are - CRIF Highmark, Transunion (CIBIL), Equifax & Experian."
+    
+         ]
+    },
+
+    {
+      "tag": "Importance of credit score",
+      "patterns": [
+        "Importance of Credit Score",
+        "Why credit score?",
+        "Why credit score is important"
+      ],
+      "responses": [
+        "Maintaining a higher credit score means that your loan application is more likely to be accepted. It also means that you could be eligible for better interest rates and better deals on loans."
+         ]
+    },
+
+    {
+      "tag": "Factors affecting credit score",
+      "patterns": [
+        "things that affects my credit score",
+        "What are the factors that affect Credit Score?",
+        "What affects credit score?",
+        "How credit score gets affected"
+      ],
+      "responses": [
+        "Your credit score gets affected by the below-mentioned factors :- a) Your payment history - Payment history defines how consistently you have made your payments on time. This is the most important contributor to your credit score. b) Credit utilization ratio - Your credit utilization is the second most important contributor to your credit score. Using more than 30% of your available credit is a negative to the creditors. c) Tenure of credit history - Tenure of credit history simply means for how long you have held the credit accounts. Generally, the older your credit account, the higher your credit score. d.New credit account - The number of credit accounts you have recently opened, as well as the number of hard inquiries lenders make when you apply for credit affects your credit score. Too many accounts or inquiries reflects an increase in risk which may hurt your credit score. e)Credit mix - Your score can increase if you responsibly use different types of credit, such as installment and revolving debt. Even so, it's not necessary to have many different types of credit in order to have a good score. "  
+         ]
+    },
+    {
+      "tag": "credit report",
+      "patterns": [
+        "credit report",
+        "What is a credit report?",
+        "About credit report?"
+      ],
+      "responses": [
+        "A credit report is a statement that has information about your credit activity and current credit situation such as loan paying history and the status of your credit accounts."
+         ]
+    },
+    {
+      "tag": "difference in credit score and credit report?",
+      "patterns": [
+        "credit report vs credit score",
+        "What is the difference between credit score and credit report?",
+        "Difference between credit score and credit report"
+      ],
+      "responses": [
+        "Credit score is basically a 3-digit number that summarizes your credit history. However, credit score is a part of credit report, which comprises of your complete credit history of credit cards and all kind of loans "
+         ]
+    },
+    {
+      "tag": "credit score update",
+      "patterns": [
+        "credit score update?",
+        "How often is my credit score updated?",
+        "When will my credit score update?",
+        "How much time does it take for credit score to update"
+      ],
+      "responses": [
+        "You can fetch your credit score from SahiBnk only once a month. After one month user can click on Refresh button and the credit score will get updated."
+         ]
+    },
+    {
+      "tag": "About CRIF",
+      "patterns": [
+        "What is CRIF?",
+        "CRIF",
+        "About CRIF",
+        "Tell me about CRIF"
+      ],
+      "responses": [
+        "CRIF High Mark is one of the four RBI licensed Credit Information Companies in India, with the other three being CIBIL, Experian, and Equifax"
+         ]
+    },
+    {
+      "tag": "range of CRIF credit score ",
+      "patterns": [
+        "What are CRIF ranges",
+        "What range of CRIF credit score is considered good for getting loan?",
+        "range of CRIF credit score",
+        "About CRIF credit score range",
+        "Tell me about CRIF credit score range"
+      ],
+      "responses": [
+        "Every financial institution uses their own criteria and benchmark to assess loan applicants' Credit report and Score. However, below are the ranges of CRIF Credit Score with their category: 1) Score from 750 to 900 is considered Excellent 2) Score from 650 to 749 is considered High 3) Score from 550 to 649 is considered Medium 4) Score from 300 to 549 is considered Low"
+         ]
+    },
+
+    {
+      "tag": "want to know",
+      "patterns": [
+        "i want to know my balance of my account",
+        "my account balance",
+        "account balance"
+        
+      ],
+      "responses": [
+        "Please only enter your mobile number to know your Account Details"
+         ]
+    }
+
+    
+
+
+
+    
+
+    
+
+
+    
+  ]
+}
